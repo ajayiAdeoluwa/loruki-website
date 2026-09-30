@@ -14,7 +14,6 @@ body {
   font-family: "Lato", sans-serif;
   color: #333;
   line-height: 1.6;
-  overflow: hidden;
 }
 
 ul {
@@ -133,4 +132,18 @@ img {
 /* Stats */
 .stats {
   padding-top: 100px;
+}
+
+.stats-heading{
+  max-width: 500px;
+  margin: auto;
+}
+
+.stats .grid h3{
+  font-size: 35px;
+}
+
+.stats .grid p{
+  font-size: 20px;
+  font-weight: bold;
 }
